@@ -4,6 +4,9 @@ dependencies:
   discord.js:
     specifier: ^14.9.0
     version: 14.9.0
+  fs:
+    specifier: 0.0.1-security
+    version: 0.0.1-security
 
 packages:
 
@@ -127,6 +130,10 @@ packages:
       readable-web-to-node-stream: 3.0.2
       strtok3: 7.0.0
       token-types: 5.0.1
+    dev: false
+
+  /fs@0.0.1-security:
+    resolution: {integrity: sha512-3XY9e1pP0CVEUCdj5BmfIZxRBTSDycnbqhIOGec9QYtmVH2fbLpj86CFWkrNOkt/Fvty4KZG5lTglL9j/gJ87w==}
     dev: false
 
   /ieee754@1.2.1:
